@@ -1,0 +1,11 @@
+mkdir UpdateCommit
+  301  cd UpdateCommit
+  302  git init
+  304  git clone https://github.com/OlaJaafreh/git_demo.git
+  305  cd git_demo
+  306  code .
+  307  git add .
+  308  git commit -m "Edit HTML"
+  309  git remote add origin https://github.com/OlaJaafreh/git_demo.git
+  310  git push origin master
+  312  touch BashCommands.txt
